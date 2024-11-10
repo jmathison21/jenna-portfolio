@@ -1,1 +1,3 @@
-# jenna-portfolio
+# Jenna Portfolio
+
+Portfolio Website for Jenna Mathison
