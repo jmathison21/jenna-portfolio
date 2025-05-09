@@ -7,7 +7,7 @@ export default function ThemeSwitch() {
   
   return (
     <button
-      className={`px-4 py-2 rounded-full ${resolvedTheme === "dark" ? "bg-gray-800 text-white" : "bg-gray-200 text-black"} transition-colors duration-300`}
+      className={`cursor-pointer px-4 py-2 rounded-full ${resolvedTheme === "dark" ? "bg-gray-800 text-white hover:bg-gray-700" : "bg-gray-200 text-black hover:bg-gray-300"} transition-colors duration-300`}
       onClick={() => {
         setTheme(resolvedTheme === "dark" ? "light" : "dark");
       }}
