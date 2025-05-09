@@ -1,8 +1,11 @@
+import ThemeSwitch from "./ThemeSwitch";
+
 export default function Header() {
   return (
-    <header className="flex items-center fixed top-0 justify-between left-0 right-0 p-4 bg-transparent text-white">
+    <header className="flex items-center gap-2 fixed top-0 left-0 right-0 p-4 bg-transparent text-white">
       <h1 className="text-2xl font-bold">Jenna Mathison</h1>
-      <nav>
+      <ThemeSwitch />
+      <nav className="ml-auto">
         <ul className="flex space-x-4">
           <li>
             <a href="#about" className="hover:underline">
