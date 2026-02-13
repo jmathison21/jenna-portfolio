@@ -1,10 +1,16 @@
 "use client";
 import { MoonIcon, SunIcon } from "lucide-react";
 import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 export default function ThemeSwitch() {
   const { resolvedTheme, setTheme } = useTheme();
-  
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => setMounted(true), []);
+
+  if (!mounted) return null;
+
   return (
     <button
       className={`cursor-pointer px-4 py-2 rounded-full ${resolvedTheme === "dark" ? "bg-gray-800 text-white hover:bg-gray-700" : "bg-gray-200 text-black hover:bg-gray-300"} transition-colors duration-300`}
