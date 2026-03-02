@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Jenna Mathison',
   description:
-    'Portfolio website for Jenna Mathison, a Software Engineer at Soar Technology and a University of Michigan - Dearborn Computer Science Graduate'
+    'Portfolio website for Jenna Mathison, a Software Engineer at Accelint and a University of Michigan Computer Science Graduate'
 };
 
 export default function RootLayout({

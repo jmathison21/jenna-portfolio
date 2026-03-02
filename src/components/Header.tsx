@@ -3,7 +3,7 @@ import ThemeSwitch from "./ThemeSwitch";
 
 export default function Header() {
   return (
-    <header className="flex items-center gap-4 fixed top-0 left-0 right-0 p-4 bg-transparent text-white">
+    <header className="flex items-center gap-4 fixed top-0 left-0 right-0 p-4 bg-transparent">
       <h1 className="text-2xl font-bold">Jenna Mathison</h1>
       <ThemeSwitch />
       <nav className="ml-auto">

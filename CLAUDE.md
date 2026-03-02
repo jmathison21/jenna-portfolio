@@ -22,7 +22,7 @@ npm run lint:fix # ESLint with auto-fix
 - **Framework:** Next.js 16 App Router (`src/app/`)
 - **Styling:** Tailwind CSS 4 with CSS custom properties for theming (light/dark via `next-themes`)
 - **Path alias:** `@/*` maps to `./src/*`
-- **Node requirement:** >= 22.0.0
+- **Node requirement:** >= 25.0.0
 
 ### Theme System
 
