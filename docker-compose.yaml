@@ -1,7 +1,6 @@
 services:
-  portfolio:
-    build: .
-    container_name: portfolio
+  jenna-portfolio:
+    image: ${JENNA_PORTFOLIO_IMAGE:-jenna-portfolio:local}
     restart: unless-stopped
     environment:
       - PORT=5000

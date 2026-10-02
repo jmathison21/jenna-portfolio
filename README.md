@@ -18,12 +18,38 @@ About page with a picture, biography, work history and education
 
 Projects page containing interactive cards for each project with a description, technologies, and website/github links
 
-1. VendUMD
-2. Translation Networks
+1. Synthesis Engine
+2. VendUMD
+3. Translation Networks
 
 ### Contact
 
 Contact page containing an email form and social media links
+
+## Development
+
+### Setup
+
+Setup Commands:
+```
+cp .env.example .env
+npm ci
+```
+
+### Run
+
+Run the dev server:
+```
+npm run dev
+```
+Access at http://localhost:3000
+
+Run in docker:
+```
+./build-dev.sh
+docker compose up -d
+```
+Access at http://localhost:5000
 
 ## Deployment
 
