@@ -2,6 +2,8 @@
 
 Portfolio website for Jenna Mathison, a Software Engineer at Lyntris and a University of Michigan - Dearborn Computer Science Graduate
 
+This portfolio website is available at [jennamat.com](https://jennamat.com)
+
 ## Pages
 
 ### Home
@@ -22,3 +24,7 @@ Projects page containing interactive cards for each project with a description, 
 ### Contact
 
 Contact page containing an email form and social media links
+
+## Deployment
+
+This app is built and deployed with Komodo behind Cloudflare Tunnel on Jenna's homelab

@@ -1,10 +1,10 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to coding agents working in this repository.
 
 ## Project Overview
 
-Personal portfolio website for Jenna Mathison built with Next.js 16.1, React 19, TypeScript, and Tailwind CSS 4. Deployed via Docker on port 5000 behind Cloudflare.
+Personal portfolio website for Jenna Mathison built with Next.js 16.3, React 19, TypeScript, and Tailwind CSS 4. Deployed via Docker on port 5000 behind Cloudflare.
 
 ## Commands
 
@@ -22,7 +22,7 @@ npm run lint:fix # ESLint with auto-fix
 - **Framework:** Next.js 16 App Router (`src/app/`)
 - **Styling:** Tailwind CSS 4 with CSS custom properties for theming (light/dark via `next-themes`)
 - **Path alias:** `@/*` maps to `./src/*`
-- **Node requirement:** >= 25.0.0
+- **Node requirement:** >= 26.0.0
 
 ### Theme System
 
